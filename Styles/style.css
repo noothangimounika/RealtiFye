@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.container{
+   padding: 10px;
+    
+}
+.nav-bar{
+  
+    background: url(../Images/bg-imge.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar::after{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: block;
+   
+    position: absolute;
+    width: 100%;
+}
+ .nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.logo-with-text{
+    display: flex;
+    padding: 10px;
+    font-size: 30px;   
+}
+.logo-with-text h1{
+    margin-left: 10px;
+    margin-top: -20px;
+    font-weight: bold;
+   
+}
+.logo-with-text span{
+   font-size: 50px;
+   font-weight: bold;
+   color: brown;
+}
+.nav-text ul {
+    display: flex;
+  
+}
+.nav-text li{
+    padding: 20px;
+    list-style: none;
+}
+
+.btn span{
+ color: white;
+ font-size: 50px;
+ padding: 10px;
+ 
+}
+.btn button {
+    color: white;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border:2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-right: 10px;
+    
+}
+.btn button:hover{
+    background-color:white;
+    color:  rgb(216, 105, 13);
+    border-radius: 30px;
+
+}
+.main-text{
+    color: white;
+    margin-top: 200px;
+    padding: 10px;
+    
+}
+.main-text h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+.main-text p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.buy-btn{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+   
+}
+.buy-btn:hover{
+    
+    background-color:white;
+    color:  rgb(216, 105, 13);
+
+}
+.buy-btn button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+}
+.buy-btn button:hover{
+    color:  rgb(216, 105, 13); 
+}
+.buy-btn span{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+.animation-images{
+    background-color: black;
+}
+.animation-images img{
+    width: 400px;
+    height: 223px;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.animation-images .img-row1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+   
+}
+.animation-images .img-row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+   
+}
+.Style-Component{
+    background-color: black;
+    height: 1900px;
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.Style-Component h2 {
+    font-size: 30px;
+   padding-top: 150px;
+}
+.Style-Component h1{
+   font-size: 70px;
+   font-weight: bold;
+   margin-top: 20px;
+   
+}
+.Style-Component p{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+   
+}
+.images img{
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.images p{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.images .img1{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.images .img2{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.images .img3{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.logo-text-btn-img{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 1400px;
+    height: 570px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 50px;
+    margin: 20px;
+   
+}
+.logo-text{
+   text-align: left;
+   width: 300px;
+   height: 500px;
+   border-radius: 10px;
+   font-weight: 700;
+   margin: 20px;
+}
+.request-btn{
+    margin-top: 20px;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid rgb(216, 105, 13);
+    padding: 10px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    color: rgb(216, 105, 13);
+    text-align: center;
+}
+.request-btn:hover{
+    color: white;
+    background-color: rgb(216, 105, 13);
+
+}
+
+.request-btn button{
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    color: rgb(216, 105, 13);
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+
+}
+.request-btn button:hover{
+    color: white;
+}
+.request-btn span{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+.buy-temple-btn{
+   
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid rgb(216, 105, 13);
+    padding: 10px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    text-align: center;
+    color: rgb(216, 105, 13);
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.buy-temple-btn button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(216, 105, 13);
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+
+}
+.buy-temple-btn span{
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left:30px;   
+}
+.buy-temple-btn:hover{
+    color: white;
+    background-color: rgb(216, 105, 13);
+    font-weight: bold;
+}
+.buy-temple-btn button:hover{
+    color: white;
+    font-weight: bold;
+}
+.Main-Pages{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+  
+}
+
+
+/* .Main-Pages span{
+    visibility: hidden;
+    text-align: center;
+}
+.Main-Pages span:hover{
+    visibility: visible;
+    cursor: pointer;
+} */
+.Main-Pages-row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Main-Pages img{
+    width: 300px;
+    height: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.Main-Pages img:hover{
+    transform: scale(1.1);
+}
+
+.Main-Pages-row1 .home{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(243, 215, 215);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    
+}
+.Main-Pages-row1 .home:hover{
+    color: rgb(216, 105, 13) ;
+}
+
+.Main-Pages-row1 .About{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(243, 215, 215);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.Main-Pages-row1 .About:hover{
+    color: rgb(216, 105, 13) ;
+}
+.Main-Pages-row1 .Properties{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(243, 215, 215);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.Main-Pages .Properties:hover{
+    color: rgb(216, 105, 13) ;
+}
+.Main-Pages-row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.Main-Pages-row2 .PropertyDetails{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(243, 215, 215);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    
+}
+.Main-Pages-row2 .PropertyDetails:hover{
+    color: rgb(216, 105, 13) ;
+}
+
+.Main-Pages-row2 .Agent-Details{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(243, 215, 215);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.Main-Pages-row2 .Agent-Details:hover{
+    color: rgb(216, 105, 13) ;
+}
+.Main-Pages-row2 .Blog-Listing{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(243, 215, 215);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.Main-Pages .Blog-Listing:hover{
+    color: rgb(216, 105, 13) ;
+}
