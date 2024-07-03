@@ -547,20 +547,7 @@
     margin-top: 50px;
    
 }
-/* .buy-rent::after{
-    background-color: rgba(0, 0, 0, 0.37);
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    transform: translateX(-50%);
-    position: fixed;
-    top: 0;
-    left: 50%;
-    height: 600px;
-    background-attachment: fixed;
-    z-index: -1;
-} */
+
 .buy-rent h1{
     font-size: 100px;
     padding-top: 150px;
@@ -579,6 +566,7 @@
     margin-left: 20px;
     
 }
+
 .buy-rent .get-in-touch-btn button{
     border: none;
     background-color: transparent;
@@ -711,4 +699,5 @@
     justify-content: space-between;
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 50px;
 }
